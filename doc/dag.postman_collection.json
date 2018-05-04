@@ -1,0 +1,286 @@
+{
+	"info": {
+		"name": "dag",
+		"_postman_id": "f27c0f89-22bc-6c4d-73ea-ede011b8d195",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add template",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nodes\": [\n    {\n        \"id\": \"Za4Np9\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"vA5fa3\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"eBLdvS\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"YaB9nq\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"qoPz0x\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"CvwH0H\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"Jdtxl8\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    }],\n    \"edges\": [{\n\t\t\"source\": \"Za4Np9\",\n\t\t\"target\": \"vA5fa3\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"eBLdvS\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"YaB9nq\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"eBLdvS\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"YaB9nq\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"qoPz0x\",\n\t\t\"target\": \"CvwH0H\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"CvwH0H\",\n\t\t\"target\": \"Jdtxl8\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t}]\n\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/api/template",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"template"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get templates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/templates?currentPage=1&pageSize=5",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"templates"
+					],
+					"query": [
+						{
+							"key": "currentPage",
+							"value": "1",
+							"equals": true
+						},
+						{
+							"key": "pageSize",
+							"value": "5",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update template",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"isStop\":true\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/api/template/5aec1aa92d3a38260569fff0",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"template",
+						"5aec1aa92d3a38260569fff0"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete template",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/template/5aec1aa92d3a38260569fff0",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"template",
+						"5aec1aa92d3a38260569fff0"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "start workflow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"description": "",
+							"type": "file",
+							"src": "testdata.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/api/workflow/start?templateId=5aec24de2d3a382e05e8c4b3",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflow",
+						"start"
+					],
+					"query": [
+						{
+							"key": "templateId",
+							"value": "5aec24de2d3a382e05e8c4b3",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all workflows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/workflows?currentPage=1&pageSize=5",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflows"
+					],
+					"query": [
+						{
+							"key": "currentPage",
+							"value": "1",
+							"equals": true
+						},
+						{
+							"key": "pageSize",
+							"value": "5",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get a workflow",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/workflow/5ae865012d3a381172023fc9",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflow",
+						"5ae865012d3a381172023fc9"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete workflow",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/workflow/5aec28152d3a383536789ce6",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflow",
+						"5aec28152d3a383536789ce6"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "stop workflow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/workflow/5ae9b71d2d3a38d1297bdc38/stop",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflow",
+						"5ae9b71d2d3a38d1297bdc38",
+						"stop"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "restart workflow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:5000/api/workflow/5aec29212d3a3839fa01b15b/restart",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"workflow",
+						"5aec29212d3a3839fa01b15b",
+						"restart"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
