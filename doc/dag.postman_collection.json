@@ -1,286 +1,301 @@
 {
-	"info": {
-		"name": "dag",
-		"_postman_id": "f27c0f89-22bc-6c4d-73ea-ede011b8d195",
-		"description": "",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
+	"owner": "3511307",
+	"lastUpdatedBy": "3511307",
+	"lastRevision": 3777574754,
+	"team": null,
+	"id": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+	"name": "dag",
+	"description": "",
+	"variables": null,
+	"auth": null,
+	"events": null,
+	"folders_order": [],
+	"order": [
+		"b5b370b9-df6d-1846-4424-863c5f216078",
+		"2fd1f580-dd6b-59cc-8057-3f2cb30c8d96",
+		"ff9b94f5-395a-83b7-422f-188e360cca54",
+		"77ddab4e-e739-fb7e-8cb9-cbeb45a63f7f",
+		"d6959080-1bb4-cf23-8c07-8bed686f5227",
+		"6e938c1d-43c0-547a-3f1e-d85d94ff199d",
+		"3e39f9f5-22aa-e52a-8469-cd3c1e5987fa",
+		"288bd7e3-2fd0-d9e0-31e1-4306fecf20d3",
+		"8e2b8b61-41e9-d4ea-50a8-a04e152a1939",
+		"f52d7b2b-b7d4-5515-1fb2-e13725b68e4f"
+	],
+	"requests": [
 		{
-			"name": "add template",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"nodes\": [\n    {\n        \"id\": \"Za4Np9\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"vA5fa3\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"eBLdvS\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"YaB9nq\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"qoPz0x\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"CvwH0H\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"Jdtxl8\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"2756\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    }],\n    \"edges\": [{\n\t\t\"source\": \"Za4Np9\",\n\t\t\"target\": \"vA5fa3\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"eBLdvS\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"YaB9nq\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"eBLdvS\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"YaB9nq\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"qoPz0x\",\n\t\t\"target\": \"CvwH0H\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"CvwH0H\",\n\t\t\"target\": \"Jdtxl8\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t}]\n\n}"
-				},
-				"url": {
-					"raw": "localhost:5000/api/template",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"template"
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "get templates",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/templates?currentPage=1&pageSize=5",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"templates"
-					],
-					"query": [
-						{
-							"key": "currentPage",
-							"value": "1",
-							"equals": true
-						},
-						{
-							"key": "pageSize",
-							"value": "5",
-							"equals": true
-						}
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "update template",
-			"request": {
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n\t\"isStop\":true\n}"
-				},
-				"url": {
-					"raw": "localhost:5000/api/template/5aec1aa92d3a38260569fff0",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"template",
-						"5aec1aa92d3a38260569fff0"
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "delete template",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/template/5aec1aa92d3a38260569fff0",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"template",
-						"5aec1aa92d3a38260569fff0"
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "start workflow",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "file",
-							"description": "",
-							"type": "file",
-							"src": "testdata.txt"
-						}
-					]
-				},
-				"url": {
-					"raw": "localhost:5000/api/workflow/start?templateId=5aec24de2d3a382e05e8c4b3",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflow",
-						"start"
-					],
-					"query": [
-						{
-							"key": "templateId",
-							"value": "5aec24de2d3a382e05e8c4b3",
-							"equals": true
-						}
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "get all workflows",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/workflows?currentPage=1&pageSize=5",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflows"
-					],
-					"query": [
-						{
-							"key": "currentPage",
-							"value": "1",
-							"equals": true
-						},
-						{
-							"key": "pageSize",
-							"value": "5",
-							"equals": true
-						}
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
-			"name": "get a workflow",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/workflow/5ae865012d3a381172023fc9",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflow",
-						"5ae865012d3a381172023fc9"
-					]
-				},
-				"description": ""
-			},
-			"response": []
-		},
-		{
+			"folder": null,
+			"id": "288bd7e3-2fd0-d9e0-31e1-4306fecf20d3",
 			"name": "delete workflow",
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/workflow/5aec28152d3a383536789ce6",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflow",
-						"5aec28152d3a383536789ce6"
-					]
-				},
-				"description": ""
-			},
-			"response": []
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "localhost:5000/api/workflow/5aec28152d3a383536789ce6",
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
 		},
 		{
+			"folder": null,
+			"id": "2fd1f580-dd6b-59cc-8057-3f2cb30c8d96",
+			"name": "get templates",
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "localhost:5000/api/templates?currentPage=1&pageSize=5",
+			"queryParams": [
+				{
+					"key": "currentPage",
+					"value": "1",
+					"equals": true
+				},
+				{
+					"key": "pageSize",
+					"value": "5",
+					"equals": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "3e39f9f5-22aa-e52a-8469-cd3c1e5987fa",
+			"name": "get a workflow",
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "localhost:5000/api/workflow/5ae865012d3a381172023fc9",
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "6e938c1d-43c0-547a-3f1e-d85d94ff199d",
+			"name": "get all workflows",
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "localhost:5000/api/workflows?currentPage=1&pageSize=5",
+			"queryParams": [
+				{
+					"key": "currentPage",
+					"value": "1",
+					"equals": true
+				},
+				{
+					"key": "pageSize",
+					"value": "5",
+					"equals": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "77ddab4e-e739-fb7e-8cb9-cbeb45a63f7f",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5000/api/template/5aec24de2d3a382e05e8c4b3",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": null,
+			"auth": null,
+			"time": 1526657736202,
+			"name": "delete template",
+			"description": null,
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "8e2b8b61-41e9-d4ea-50a8-a04e152a1939",
 			"name": "stop workflow",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/workflow/5ae9b71d2d3a38d1297bdc38/stop",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflow",
-						"5ae9b71d2d3a38d1297bdc38",
-						"stop"
-					]
-				},
-				"description": ""
-			},
-			"response": []
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "localhost:5000/api/workflow/5ae9b71d2d3a38d1297bdc38/stop",
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
 		},
 		{
+			"id": "b5b370b9-df6d-1846-4424-863c5f216078",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5000/api/template",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"auth": null,
+			"time": 1526657445590,
+			"name": "add template",
+			"description": null,
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n    \"nodes\": [\n    {\n        \"id\": \"Za4Np9\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-a\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"vA5fa3\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-b\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"eBLdvS\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-c\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"YaB9nq\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-d\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"qoPz0x\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-e\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"CvwH0H\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-f\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    },\n    {\n        \"id\": \"Jdtxl8\",\n        \"type\": \"action\",\n        \"ctype\": \"job\",\n        \"paramSetting\":\n        {\n            \"RERUNNING\":\n            {\n                \"rerun\": \"false\",\n                \"preNodes\": [],\n                \"postNodes\": [],\n                \"nodeName\": \"随机数据_1\"\n            }\n        },\n        \"componentId\": \"function-g\",\n        \"displayName\": \"随机数据_1\",\n        \"componentName\": \"随机数据\",\n        \"script\": \"./run\"\n    }],\n    \"edges\": [{\n\t\t\"source\": \"Za4Np9\",\n\t\t\"target\": \"vA5fa3\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"eBLdvS\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"vA5fa3\",\n\t\t\"target\": \"YaB9nq\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"eBLdvS\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"YaB9nq\",\n\t\t\"target\": \"qoPz0x\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"qoPz0x\",\n\t\t\"target\": \"CvwH0H\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t},{\n\t\t\"source\": \"CvwH0H\",\n\t\t\"target\": \"Jdtxl8\",\n\t\t\"data\": {\n\t\t\t\"id\": \"25699c71-3a64-4f22-80b7-36359e56d9e6\",\n\t\t\t\"type\": \"connection\"\n\t\t}\n\t}]\n\n}"
+		},
+		{
+			"id": "d6959080-1bb4-cf23-8c07-8bed686f5227",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5000/api/workflow/start?templateId=5afef2ef2d3a38a696c3df6b",
+			"folder": null,
+			"queryParams": [
+				{
+					"key": "templateId",
+					"value": "5afef2ef2d3a38a696c3df6b",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"type": "file",
+					"src": "testdata.txt",
+					"value": ""
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1526657787041,
+			"name": "start workflow",
+			"description": null,
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "f52d7b2b-b7d4-5515-1fb2-e13725b68e4f",
 			"name": "restart workflow",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {},
-				"url": {
-					"raw": "localhost:5000/api/workflow/5aec29212d3a3839fa01b15b/restart",
-					"host": [
-						"localhost"
-					],
-					"port": "5000",
-					"path": [
-						"api",
-						"workflow",
-						"5aec29212d3a3839fa01b15b",
-						"restart"
-					]
-				},
-				"description": ""
-			},
-			"response": []
+			"dataMode": null,
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "localhost:5000/api/workflow/5aec29212d3a3839fa01b15b/restart",
+			"queryParams": [],
+			"headerData": [],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "ff9b94f5-395a-83b7-422f-188e360cca54",
+			"name": "update template",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/json",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "localhost:5000/api/template/5aec1aa92d3a38260569fff0",
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"pathVariableData": [],
+			"collectionId": "fb402ba2-d00f-3fc6-ea33-d0d3f95d66cd",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n  \"isStop\":true\n}"
 		}
 	]
 }

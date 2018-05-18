@@ -50,9 +50,7 @@ $ docker swarm init --listen-addr 192.168.33.10:2377 --advertise-addr 192.168.33
 在requirements.txt所在目录中运行下面命令
 $ pip install -r requirements.txt
 
-8.构建工作流相关镜像，每个action对应一个镜像，镜像名为action name的小写
-
-9.运行服务器、监控器
+8.运行服务器、监控器
 $ python run_server.py
 $ python run_monitor.py
 
