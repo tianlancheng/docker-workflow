@@ -61,7 +61,7 @@ void copy(char *filepath,char *filename){
     {
         fputc(c,fp2);
     }
-    fprintf(fp2,"%s\n","YaB9nq");
+    fprintf(fp2,"%s\n","function-f");
     fclose(fp1);
     fclose(fp2);
 }

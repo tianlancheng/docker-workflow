@@ -51,7 +51,7 @@ void copy(char *filepath,char *filename){
     }
     char savefile[100];
     sprintf(savefile,"%s/%s",savepath,filename);
-    if ((fp2=fopen(savefile, "a"))==NULL)
+    if ((fp2=fopen(savefile, "w"))==NULL)
     {
         printf("connot open\n");
         exit(0);
@@ -61,12 +61,10 @@ void copy(char *filepath,char *filename){
     {
         fputc(c,fp2);
     }
-    fprintf(fp2,"%s\n","qoPz0x");
+    fprintf(fp2,"%s\n","function-g");
     fclose(fp1);
     fclose(fp2);
 }
-
-
   
 void listAllFiles(char *dirname)  
 {  
@@ -122,7 +120,7 @@ int main(int argc, char **argv)
     printf("savepath:%s\n", savepath);
     for(int i=2;i<argc;i++){
         printf("input:%s\n", argv[i]);
-        strcpy(dirPath,argv[i]); 
+        strcpy(dirPath,argv[i]);  
         listAllFiles(dirPath);
     } 
     printf("total files:%d\n",count);  

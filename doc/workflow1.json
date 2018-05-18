@@ -14,7 +14,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-a",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -33,7 +33,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-b",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -52,7 +52,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-c",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -71,7 +71,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-d",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -90,7 +90,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-e",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -109,7 +109,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-f",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"
@@ -128,7 +128,7 @@
                 "nodeName": "随机数据_1"
             }
         },
-        "componentId": "2756",
+        "componentId": "function-g",
         "displayName": "随机数据_1",
         "componentName": "随机数据",
         "script": "./run"

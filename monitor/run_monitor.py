@@ -20,7 +20,7 @@ def start_action(workflowId,action):
 		inputs=inputs+bathpath+name+' '
 	if not inputs:
 		inputs=bathpath+'input'
-	dockerClient.services.create(image=action['id'].lower(), 
+	dockerClient.services.create(image=action['componentId'].lower(), 
 		name=workflowId+'-'+action['id'],
 		mounts=["nfs-volume:/nfs:rw"],
 		command=action['script']+' '+savepath+' '+inputs,

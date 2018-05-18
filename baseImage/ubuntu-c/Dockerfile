@@ -1,4 +1,4 @@
-#ubuntu:c
+#docker build -t ubuntu:c .
 FROM ubuntu:16.04
 # APT 自动安装相关的依赖包，如需其他依赖包在此添加
 RUN apt-get update && \  

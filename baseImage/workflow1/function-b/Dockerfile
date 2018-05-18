@@ -1,3 +1,4 @@
+#docker build -t function-b .
 FROM ubuntu:c
 COPY run.c /home
 WORKDIR /home
